@@ -1,0 +1,10 @@
+services:
+  php-cli:
+    build:
+      context: ./php-cli
+      dockerfile: Dockerfile
+    container_name: php-cli
+    ports:
+      - 9001:9000
+    volumes:
+      - ../project:/var/www/project

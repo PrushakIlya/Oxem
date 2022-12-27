@@ -1,0 +1,15 @@
+{
+    "name": "root/project",
+    "authors": [
+        {
+            "name": "Ilya Prushak",
+            "email": "i24199724i@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prushak\\": "cli/"
+        }
+    },
+    "require": {}
+}
